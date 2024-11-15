@@ -9,10 +9,10 @@
                 return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
             };
 
-            if (window.location.pathname != '/play/gold') {
+            if (window.location.pathname != '/play/gold') {https://goldquest.blooket.com/play/gold
                 alert('You must be in a gold quest game!');
             } else {
-                let gold = Number(parseFloat(prompt('How much gold do you want?')));
+                let gold = Number(parseFloat(prompt('How much gold do you want?')));1000000000000000000000000000000000000000000000000000000000000
                 reactHandler().stateNode.setState({ gold2: gold, gold });
 
                 alert('Gold added!');
